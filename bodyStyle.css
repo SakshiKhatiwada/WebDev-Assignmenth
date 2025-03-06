@@ -1,0 +1,92 @@
+.body-container {
+  background-color: #1d2a35;
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  max-height: fit-content;
+  /* height: 100vb; */
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.topics-list {
+  position: absolute;
+  /* height: clamp(400px, 600px, 800px); */
+  height: 100%;
+  background-color: #15202b;
+  text-align: start;
+  margin: 0;
+}
+
+.topics-list > div {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  width: 250px;
+  /* height: inherit; */
+  /* height: 100%; */
+  /* height: auto; */
+  background-color: #15202b;
+  overflow-y: scroll;
+  text-indent: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+.details {
+  /* position: relative; */
+  padding: 40px 60px;
+  margin-left: 250px;
+  /* width: clamp(450px, auto, 900px); */
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details > .video-link {
+  align-self: center;
+}
+
+.video-link > a > img {
+  height: 250px;
+  width: 550px;
+}
+
+.short-intro {
+  background-color: #193d3d;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #059862;
+  color: white;
+  font-weight: 800;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-part {
+  align-self: center;
+}
+
+.footer {
+  /* position: fixed; */
+  /* bottom: 0px; */
+  z-index: 100;
+  text-align: center;
+  width: 100%;
+  /* border: 2px solid red; */
+  /* height: 30vh */
+  border: 2px solid red;
+}
