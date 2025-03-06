@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+    font-family: "Playwrite IT Moderna", cursive;
+    color:azure;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style:none;
+    margin:0 23px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 1px 1px rgba(240, 255, 255, 0.466);
+}
+
+a:active{
+    background-color:#05986276 ;
+}
